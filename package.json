@@ -1,0 +1,23 @@
+{
+  "name": "skew-binomial-heap-viz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bsb": "bsb",
+    "watchml": "bsb -make-world -w",
+    "watchjs": "watchify main.js -d -o main.out.js -v",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "bs-platform": "^5.0.0",
+    "watchify": "^3.11.1"
+  },
+  "dependencies": {
+    "treantjs": "file:treant-js"
+  }
+}
