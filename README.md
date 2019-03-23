@@ -1,16 +1,5 @@
+Visualization of the skew binomial heap from "Purely Functional Data Structure". Implemented with ReasonML (BuckleScript actually).
 
 
-# Build
-```
-npm run build
-```
-
-# Watch
-
-```
-npm run watch
-```
-
-
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
+Screenshot:
+![screenshot](heap.jpg?raw=true "Screenshot")
