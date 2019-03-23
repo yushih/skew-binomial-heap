@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script>
+  <script src="https://unpkg.com/treant-js@1.0.1/Treant.js"></script>
+  <script src="./main.out.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/treant-js@1.0.1/Treant.css" type="text/css"/>
+  <title>Skew Binomial Heap Visualized</title>
+  <style>
+    /* Must have this or the graphs ain't right:*/
+    body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+
+    .node { color: #9CB5ED; border: 2px solid #C8C8C8; border-radius: 3px; }
+
+    #history span {
+      text-decoration: underline;
+      cursor: pointer;
+      padding-right: 1em;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <input id="input-value" type="text" value="0" /> <button id="insert">insert</button>
+    <button id="deleteMin">deleteMin</button>
+  </div>
+  <div id="history"></div>
+  <div id="heap"></div>
+</body>
+</html>
